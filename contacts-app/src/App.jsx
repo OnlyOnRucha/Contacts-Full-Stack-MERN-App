@@ -11,7 +11,7 @@ function App() {
     <div className="bg-[#FDCEDF] min-h-screen">
       
         <Navbar />
-        <Read />
+        <Create />
       
     </div>
   );
