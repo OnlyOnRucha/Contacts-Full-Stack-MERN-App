@@ -12,9 +12,7 @@ const Create = () => {
             <input className="rounded-xl border-2 p-2 pl-2 w-9/12 placeholder:pl-3" type="text" placeholder="janedoe@gmail.com"/>
             <input className="rounded-xl border-2 p-2 pl-2 w-9/12 placeholder:pl-3" type="text" placeholder="9757465287"/>
             <button className=" py-3 mt-2 w-24 rounded-full border-2 bg-[#f4558f] text-white font-semibold hover:scale-105 transition duration-500 hover:bg-[#fdc3d8] hover:text-[#aa0541]">
-              <Link to="/read">
-              Save
-              </Link>
+              <Link to="/read">Save</Link>
               </button>
           </form>
         </div>

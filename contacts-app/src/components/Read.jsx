@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import trash from '../assets/trash 3.png'
+import update from '../assets/update.jpeg'
 
 const Read = () => {
   const [users, setUsers] = useState([
     { Name: "Rucha", Email: "jhbfj@gmail.com", Phone: "8745246857" },
-    { Name: "Tejas", Email: "vhlsd@gmail.com", Phone: "9489666857" },
+    { Name: "Rupa", Email: "vhlsd@gmail.com", Phone: "9489666857" },
   ]);
 
   return (
@@ -26,7 +28,9 @@ const Read = () => {
               <h1>{user.Name}</h1>
               <h1>{user.Email}</h1>
               <h1>{user.Phone}</h1>
-              <button>del update</button>
+              <div className="flex gap-2"><img src={trash} className="w-7" />
+              <img src={update} className="w-8" /></div>
+              
             </div>
             )
           })}
